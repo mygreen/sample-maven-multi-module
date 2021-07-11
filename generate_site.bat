@@ -14,7 +14,7 @@ mkdir target
 call mvn --version > %LOG_FILE% 2>&1 
 call mvn site -pl %MVN_SITE_PROJECT_LIST% >> %LOG_FILE% 2>&1 
 
-echo "集約された jacoco-report のコピー"
+echo 集約された jacoco-report のコピー
 xcopy /Y /E /Q report-aggregate\target\site\jacoco-aggregate target\site\jacoco-aggregate >> %LOG_FILE% 2>&1 
 
 echo 各モジュールのサイトのコピー

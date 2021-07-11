@@ -20,6 +20,12 @@
 			<item name="Index" href="./index.html" />
 		</breadcrumbs>
 		
+		<menu name="説明">
+			<item name="モジュール構成" href="structure.html" />
+			<item name="レポート情報の集約" href="report-generate.html" />
+			<item name="モジュールのサイト生成" href="site-generate.html" />
+		</menu>
+
 		<menu name="関連リンク">
 			<item name="GitHub" href="https://github.com/mygreen/sample-maven-multi-module/" />
 			<item name="JavaDoc" href="apidocs/index.html" />
