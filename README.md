@@ -18,4 +18,4 @@ Mavenを使ったマルチモジュール構成のベストプラクティスを
 - 生成したサイト
   - https://mygreen.github.io/sample-maven-multi-module/
 - JavaDoc
-  - https://mygreen.github.io/sqlmapper/sample-maven-multi-module/index.html
+  - https://mygreen.github.io/sample-maven-multi-module/apidocs/index.html
