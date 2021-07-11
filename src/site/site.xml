@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="${project.name}"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/xsd/decoration-1.8.0.xsd">
+	<skin>
+		<groupId>org.apache.maven.skins</groupId>
+		<artifactId>maven-fluido-skin</artifactId>
+		<version>1.9</version>
+	</skin>
+	<publishDate position="right" />
+	<version position="right" />
+	<bannerLeft>
+		<src>./images/logo.png</src>
+	</bannerLeft>
+	<body>
+		<head>
+			<![CDATA[<link rel="stylesheet" href="./css/logo.css">]]>
+		</head>
+		<breadcrumbs>
+			<item name="Index" href="./index.html" />
+		</breadcrumbs>
+		
+		<menu name="関連リンク">
+			<item name="GitHub" href="https://github.com/mygreen/sample-maven-multi-module/" />
+			<item name="JavaDoc" href="apidocs/index.html" />
+		</menu>
+		
+		<!-- 余分なモジュールは表示しないため直接記述する 
+		<menu ref="modules" />
+		-->
+		<menu name="モジュール">
+			<item name="parent" href="parent/index.html" />
+		</menu>
+		<menu ref="reports" />
+	</body>
+</project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.github.mygreen.sample</groupId>
+		<artifactId>module2</artifactId>
+		<version>${revision}</version>
+	</parent>
+
+	<artifactId>module2-sub-module1</artifactId>
+	<packaging>jar</packaging>
+	<description><![CDATA[ パッケージ対象のmodule2もサブモジュール1。 ]]></description>
+
+	<properties>
+		<jacoco.include.package>sample.module2.sub1.*</jacoco.include.package>
+	</properties>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**</include>
+				</includes>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+			</testResource>
+			<testResource>
+				<directory>src/test/java</directory>
+				<includes>
+					<include>**</include>
+				</includes>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</testResource>
+		</testResources>
+		<pluginManagement>
+		</pluginManagement>
+		<plugins>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.mygreen.sample</groupId>
+			<artifactId>module1</artifactId>
+			<version>${revision}</version>
+		</dependency>
+	</dependencies>
+
+</project>
