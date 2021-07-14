@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"UserController","h":"","u":""},{"l":"すべてのクラス","h":"","u":"allclasses-index.html"}]

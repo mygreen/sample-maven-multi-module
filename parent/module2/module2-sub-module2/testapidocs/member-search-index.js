@@ -1,1 +1,0 @@
-memberSearchIndex = [{"l":"UserController()","h":"","u":"%3Cinit%3E()"}]

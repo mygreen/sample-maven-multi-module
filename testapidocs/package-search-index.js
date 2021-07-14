@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"sample.module1","h":"","u":""},{"l":"sample.module2.sub1","h":"","u":""},{"l":"sample.module2.sub2","h":"","u":""},{"l":"すべてのパッケージ","h":"","u":"allpackages-index.html"}]
